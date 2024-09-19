@@ -1,0 +1,30 @@
+.hero-image {
+    background-image: url('BCB_Promo3.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+body {
+    background-color: #f8f9fa2c;
+}
+.content-section {
+    background-color: rgba(210, 210, 210, 0.689);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+    background-color: rgba(210, 210, 215, 0.614);
+}
+
+@media (max-width: 991px) {
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-toggler {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
